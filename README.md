@@ -16,7 +16,7 @@
 使用Docker和docker-compose進行部署，確保您已經安裝了Docker。
 1. 從GitHub克隆Repo到本地。
 ```commandline
-git clone https://github.com/your_username/udn-news-wordcloud.git
+git clone https://github.com/estelladai/udn_news_money_rss_wordcloud.git
 ```
 2. 進入專案目錄。
 ```commandline
