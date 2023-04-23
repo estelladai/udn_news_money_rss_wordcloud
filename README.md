@@ -21,7 +21,7 @@ git clone https://github.com/estelladai/udn_news_money_rss_wordcloud.git
 ```
 2. 進入專案目錄。
 ```commandline
-cd udn-news-wordcloud
+cd udn_news_money_rss_wordcloud
 ```
 3. 建立Docker容器。
 ```commandline
@@ -37,9 +37,10 @@ docker-compose up -d
 ```commandline
 docker-compose logs notebook
 ```
-3. 打開瀏覽器，貼上剛才從日誌中獲取的連結(含token)，並進入Jupyter。
-4. 在Jupyter中打開udn_news_wordcloud.ipynb文件，運行所有cell而生成最新文字雲圖片。
-5. 查看生成的文字雲圖片，可以在work/udn_news_wc.png文件中找到。
+3. 打開瀏覽器，進入http://localhost:9999/login。
+4. 貼上剛才從日誌中獲取的連結的token，並進入Jupyter。
+5. 在Jupyter中打開udn_news_wordcloud.ipynb文件，運行所有cell而生成最新文字雲圖片。
+6. 查看生成的文字雲圖片，可以在work/udn_news_wc.png文件中找到。
 
 # 新聞文字雲圖片
 ![新聞文字雲](work/udn_news_wc_1.png)
