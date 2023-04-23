@@ -42,4 +42,4 @@ docker-compose logs notebook
 5. 查看生成的文字雲圖片，可以在work/udn_news_wc.png文件中找到。
 
 # 新聞文字雲圖片
-![新聞文字雲](work/udn_news_wc.png)
+![新聞文字雲](work/udn_news_wc_1.png)
