@@ -38,4 +38,6 @@ docker-compose logs notebook
 ```
 3. 打開瀏覽器，貼上剛才從日誌中獲取的連結(含token)，並進入Jupyter。
 4. 在Jupyter中打開udn_news_wordcloud.ipynb文件，運行所有Cell生成文字雲圖片。
-5. 查看生成的文字雲圖片，可以在udn_news_wc.png文件中找到。
+5. 查看生成的文字雲圖片，可以在work/udn_news_wc.png文件中找到。
+
+![文字雲](work/udn_news_wc.png)
