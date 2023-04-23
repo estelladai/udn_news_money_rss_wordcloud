@@ -1,4 +1,5 @@
 # udn_news_money_rss_wordcloud
+
 # 專案概要
 從聯合新聞網(udn)的經濟新聞RSS (https://money.udn.com/rssfeed/news/1001/5588/10511?ch=money) 爬取最新文章內文，並根據文章內容生成文字雲，方便隨時監測熱門關鍵字。
 
@@ -40,4 +41,5 @@ docker-compose logs notebook
 4. 在Jupyter中打開udn_news_wordcloud.ipynb文件，運行所有Cell生成文字雲圖片。
 5. 查看生成的文字雲圖片，可以在work/udn_news_wc.png文件中找到。
 
-![文字雲](work/udn_news_wc.png)
+# 新聞文字雲圖片
+[新聞文字雲](work/udn_news_wc.png)
