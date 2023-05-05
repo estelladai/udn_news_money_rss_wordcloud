@@ -1,4 +1,4 @@
-# udn_news_money_rss_wordcloud
+# wordcloud_udn_news_money_rss
 
 # 概要
 從聯合新聞網(udn)的經濟日報的國際焦點RSS (https://money.udn.com/rssfeed/news/1001/5588/10511?ch=money) 爬取最新文章內文，並根據文章內容生成文字雲，方便隨時監測熱門關鍵字。
